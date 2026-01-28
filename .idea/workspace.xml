@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9c5a339-a965-44e7-9ffb-2f16b0cff968" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CacheBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CacheBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCache.java" afterDir="false" />
-    </list>
+    <list default="true" id="b9c5a339-a965-44e7-9ffb-2f16b0cff968" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
