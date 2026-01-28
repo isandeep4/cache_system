@@ -60,7 +60,7 @@ public class CacheBuilder<KEY, VALUE> {
         this.poolSize = poolSize;
         return this;
     }
-    public Cache<KEY, VALUE> builder(){
+    public Cache<KEY, VALUE> build(){
         if(dataSource == null){
             throw new IllegalArgumentException();
         }

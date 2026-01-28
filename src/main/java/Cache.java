@@ -49,7 +49,7 @@ public class Cache<KEY, VALUE> {
             }
         });
         cache = new ConcurrentHashMap<>();
-        this.threadPool = new ExecutorService[5];
+        this.threadPool = new ExecutorService[poolSize];
         for(int i=0; i<this.poolSize; i++){
             this.threadPool[i] = Executors.newSingleThreadExecutor();
         }
@@ -169,6 +169,9 @@ public class Cache<KEY, VALUE> {
     private CompletionStage<Void> persistRecord(final Record<KEY, VALUE> record){
         return dataSource.persist(record.getKey(), record.getValue(), record.getLoadTime())
                 .thenAccept(__->eventQueue.add(new Write<>(record, timer.getCurrentTime())));
+    }
+    public List<Event<KEY, VALUE>> getEventQueue(){
+        return eventQueue;
     }
 
 }

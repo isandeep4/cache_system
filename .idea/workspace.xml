@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9c5a339-a965-44e7-9ffb-2f16b0cff968" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CacheBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EvictionAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PersistAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/events/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/events/Eviction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/events/Load.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/events/Update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/events/Write.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/AccessDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Timer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CacheBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CacheBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -86,5 +68,13 @@
       <updated>1769209422686</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Cache" memberName="eventQueue" />
+        <PinnedItemInfo parentTag="Cache" memberName="persistAlgorithm" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
